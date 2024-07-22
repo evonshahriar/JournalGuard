@@ -1,5 +1,3 @@
-// popup.js
-
 let isSubmitting = false;
 
 document.getElementById('reportForm').addEventListener('submit', function(e) {

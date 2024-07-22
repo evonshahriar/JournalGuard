@@ -20,7 +20,7 @@ document.getElementById('journalUrl').addEventListener('keydown', function(e) {
 });
 
 function reportUrl(url) {
-    if (isSubmitting) return; // Prevent multiple submissions
+    if (isSubmitting) return;
     isSubmitting = true;
     displayMessage('Reporting...');
 
@@ -36,20 +36,22 @@ function reportUrl(url) {
         console.log(data);
         displayMessage('Reported URL: ' + url);
         document.getElementById('journalUrl').value = '';
-        isSubmitting = false; // Reset the submitting flag
+        isSubmitting = false;
     })
     .catch(error => {
         console.error('Error:', error);
         displayMessage('Failed to report URL.');
-        isSubmitting = false; // Reset the submitting flag even on error
-    });
-}
-
-function displayMessage(message) {
-    const messageDiv = document.getElementById('message');
-    messageDiv.innerText = message;
-    messageDiv.style.display = 'block';
-    setTimeout(() => {
-        messageDiv.style.display = 'none';
-    }, 3000);
-}
+        isSubmitting = false;
+   
+      });
+    }
+    
+    function displayMessage(message) {
+        const messageDiv = document.getElementById('message');
+        messageDiv.innerText = message;
+        messageDiv.style.display = 'block';
+        setTimeout(() => {
+            messageDiv.style.display = 'none';
+        }, 3000);
+    }
+    

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report Predatory Journal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background-color: #fff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+    }
+    h1 {
+      font-size: 22px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input {
+      font-size: 16px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    button {
+      font-size: 16px;
+      padding: 12px;
+      background-color: #ff5722;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #e64a19;
+    }
+    #message {
+      display: none;
+      margin-top: 15px;
+      padding: 12px;
+      background-color: #ffcc00;
+      color: #333;
+      border-radius: 5px;
+    }
+    #githubLink {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    #githubLink a {
+      color: #ff5722;
+      text-decoration: none;
+    }
+    #githubLink a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>JournalGuard - Report Predatory Journal</h1>
+    <form id="reportForm">
+      <input type="text" id="journalUrl" placeholder="Journal URL">
+      <button type="submit">Report</button>
+    </form>
+    <button id="reportCurrentSite">Report Current Site</button>
+    <div id="message"></div>
+    <div id="githubLink">
+      <a href="https://github.com/evonshahriar/JournalGuard" target="_blank">GitHub Project Page</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -126,11 +126,6 @@ JournalGuard is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Icon by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com).
 - Data sourced from various academic resources and community contributions.
 
-## Contact
-
-For more information or to get in touch, visit [Evon Shahriar's GitHub Profile](https://github.com/evonshahriar).
-
-Project Link: [JournalGuard on GitHub](https://github.com/evonshahriar/JournalGuard)
 
 ---
 

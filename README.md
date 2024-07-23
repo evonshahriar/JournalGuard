@@ -131,7 +131,7 @@ Project Link: [https://github.com/evonshahriar/JournalGuard](https://github.com/
 
 <div align="center">
 
-*Made with ❤️ for the academic community*
+*Made with ❤️ for the newbies in academic community*
 
 </div>
 

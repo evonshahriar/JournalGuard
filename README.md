@@ -117,9 +117,6 @@ Want to help make JournalGuard even better? Here’s how you can contribute:
    ```
 5. Open a Pull Request.
 
-## License
-
-JournalGuard is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgments
 

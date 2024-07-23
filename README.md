@@ -4,7 +4,7 @@
 
 **Evon Shahriar**
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.1-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![GitHub issues](https://img.shields.io/github/issues/evonshahriar/JournalGuard.svg)](https://github.com/evonshahriar/JournalGuard/issues)
 [![GitHub stars](https://img.shields.io/github/stars/evonshahriar/JournalGuard.svg)](https://github.com/evonshahriar/JournalGuard/stargazers)

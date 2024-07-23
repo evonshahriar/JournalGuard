@@ -19,8 +19,11 @@
 
 JournalGuard is a must-have Chrome extension designed to protect researchers from falling prey to predatory journals. With a database of over 5,000 known predatory journals, JournalGuard alerts you in real-time if you navigate to one of these sites, helping you stay focused on credible research sources. Plus, the extension is regularly updated to include new predatory journals, ensuring you always have the latest protection.
 
-![Popup Interface](popup-ss.png)
-![Warning Overlay](warning-ss.png)
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="Screenshot%202024-07-23%2012.24.20%20PM.png" alt="Popup Interface" width="45%">
+    <img src="Screenshot%202024-07-23%2012.25.13%20PM.png" alt="Warning Overlay" width="45%">
+</div>
+
 ---
 
 ## Table of Contents

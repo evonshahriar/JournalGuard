@@ -15,87 +15,87 @@
 
 ---
 
-## Abstract
+## Overview
 
-JournalGuard is an innovative Chrome extension designed to safeguard researchers and academics from predatory journals. By providing real-time alerts when users encounter websites associated with predatory academic journals, JournalGuard ensures that scholars can navigate the digital landscape of academic publishing with confidence. This README document delineates the features, installation process, usage instructions, and contribution guidelines for the JournalGuard project.
+JournalGuard is a must-have Chrome extension designed to protect researchers from falling prey to predatory journals. With a database of over 5,000 known predatory journals, JournalGuard alerts you in real-time if you navigate to one of these sites, helping you stay focused on credible research sources. Plus, the extension is regularly updated to include new predatory journals, ensuring you always have the latest protection.
 
 ---
 
 ## Table of Contents
 
-1. [Introduction](#1-introduction)
-2. [Features](#2-features)
-3. [Installation](#3-installation)
-4. [Usage](#4-usage)
-5. [File Structure](#5-file-structure)
-6. [Updating the Predatory Journal List](#6-updating-the-predatory-journal-list)
-7. [Contributing](#7-contributing)
-8. [License](#8-license)
-9. [Acknowledgments](#9-acknowledgments)
-10. [Contact](#10-contact)
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [File Structure](#file-structure)
+6. [Updating the Predatory Journal List](#updating-the-predatory-journal-list)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Acknowledgments](#acknowledgments)
+10. [Contact](#contact)
 
 ---
 
-## 1. Introduction
+## Introduction
 
-In the ever-evolving landscape of academic publishing, the proliferation of predatory journals poses a significant threat to the integrity of scholarly communication. JournalGuard stands as a powerful sentinel in this digital ecosystem, leveraging a community-maintained database of known predatory journal websites to provide an essential layer of protection for researchers.
+Navigating the academic publishing landscape can be tricky, especially with the rise of predatory journals. These journals often exploit researchers by charging high fees without providing legitimate editorial and publishing services. JournalGuard acts as a vigilant companion, alerting you whenever you encounter such a journal, thus preserving the integrity of your research.
 
-## 2. Features
+## Features
 
-JournalGuard offers a comprehensive suite of features designed to empower researchers:
+JournalGuard offers:
 
-- **Real-time Alerts:** Instantaneous warnings upon navigating to known predatory journal websites.
-- **User-friendly Interface:** Clear, visually appealing warnings with detailed information.
-- **Report Functionality:** Enables users to report suspicious journals directly from the extension.
-- **Customizable Database:** Easily update the predatory journal list through a CSV file.
+- **Real-time Alerts:** Receive instant warnings when you visit a known predatory journal website.
+- **Easy Reporting:** Report suspicious journals directly from the extension, helping to keep the database up-to-date.
+- **User-friendly Design:** Clear and visually appealing alerts to ensure you don’t miss any warnings.
+- **Community-Driven:** The database of predatory journals is updated regularly based on user reports and new findings.
 
-## 3. Installation
+## Installation
 
-To install JournalGuard, follow these steps:
+Follow these simple steps to install JournalGuard:
 
-1. Clone the repository or download the source code:
+1. Clone or download the source code:
    ```bash
    git clone https://github.com/evonshahriar/JournalGuard.git
    ```
-2. Open Chrome and navigate to `chrome://extensions`.
+2. Open Chrome and go to `chrome://extensions`.
 3. Enable "Developer mode" in the top right corner.
-4. Click "Load unpacked" and select the directory containing the extension files.
+4. Click "Load unpacked" and select the directory where you saved the JournalGuard files.
 
-## 4. Usage
+## Usage
 
-Once installed, JournalGuard operates seamlessly in the background:
+After installation, JournalGuard runs automatically in the background:
 
-- A warning overlay appears when visiting a known predatory journal website.
-- Access the popup interface by clicking the JournalGuard icon in the browser toolbar.
-- Utilize the popup to report new predatory journals or flag the current site.
+- You’ll see a warning overlay if you visit a known predatory journal site.
+- Click the JournalGuard icon in your browser toolbar to access the popup interface.
+- Use the popup to report new predatory journals or to flag the current site.
 
-## 5. File Structure
+## File Structure
 
-The extension comprises the following key components:
+Here’s an overview of the key files in JournalGuard:
 
 | File | Description |
 |------|-------------|
 | `manifest.json` | Defines the extension's properties and permissions |
 | `background.js` | Manages background processes, including URL checks |
 | `content.js` | Injects the warning overlay into web pages |
-| `popup.html` | Defines the structure of the popup interface |
+| `popup.html` | The structure of the popup interface |
 | `popup.js` | Implements the functionality of the popup interface |
 | `predatory_sites.csv` | Contains the list of known predatory journal websites |
 
-## 6. Updating the Predatory Journal List
+## Updating the Predatory Journal List
 
-The `predatory_sites.csv` file serves as the cornerstone of JournalGuard's effectiveness. To update this crucial resource:
+The core of JournalGuard’s protection is the `predatory_sites.csv` file. Here’s how to keep it updated:
 
 1. Open `predatory_sites.csv` in a text editor or spreadsheet application.
-2. Each entry follows the format: `URL,Publisher,Source`
-3. Add new entries or modify existing ones as needed.
+2. Each entry should be in the format: `URL,Publisher,Source`.
+3. Add or update entries as necessary.
 4. Save the file and reload the extension for changes to take effect.
 
-> **Note:** Regular updates to this file enhance the extension's efficacy in identifying predatory journals.
+> **Note:** Regular updates ensure the extension remains effective.
 
-## 7. Contributing
+## Contributing
 
-We welcome contributions to the JournalGuard project. To contribute:
+Want to help make JournalGuard even better? Here’s how you can contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature:
@@ -112,26 +112,25 @@ We welcome contributions to the JournalGuard project. To contribute:
    ```
 5. Open a Pull Request.
 
-## 8. License
+## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+JournalGuard is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## 9. Acknowledgments
+## Acknowledgments
 
-- Icon created by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/).
-- Predatory journal data sourced from various academic resources and community contributions.
+- Icon by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com).
+- Data sourced from various academic resources and community contributions.
 
-## 10. Contact
+## Contact
 
-Evon Shahriar - [GitHub Profile](https://github.com/evonshahriar)
+For more information or to get in touch, visit [Evon Shahriar's GitHub Profile](https://github.com/evonshahriar).
 
-Project Link: [https://github.com/evonshahriar/JournalGuard](https://github.com/evonshahriar/JournalGuard)
+Project Link: [JournalGuard on GitHub](https://github.com/evonshahriar/JournalGuard)
 
 ---
 
 <div align="center">
 
-*Made with ❤️ for the newbies in academic community*
+*Made with ❤️ for the academic community*
 
 </div>
-
